@@ -4,12 +4,12 @@
 
 ## 技能列表
 
-| 技能 | 描述 | 难度 |
-|------|------|------|
-| [component-builder](skills/component-builder/SKILL.md) | React/Vue 组件开发：设计模式、状态管理、可访问性 | 进阶 |
-| [css-master](skills/css-master/SKILL.md) | CSS 布局大师：Tailwind/Grid/Flexbox、响应式、动画 | 入门 |
-| [web-performance](skills/web-performance/SKILL.md) | Web 性能优化：Core Web Vitals、bundle 分析、加载策略 | 进阶 |
-| [browser-devtools](skills/browser-devtools/SKILL.md) | 浏览器 DevTools 精通：调试、网络分析、性能剖析 | 入门 |
+| 技能 | 描述 | 难度 | 来源 |
+|------|------|------|------|
+| [component-builder](skills/component-builder/SKILL.md) | React/Vue 组件开发：设计模式、状态管理、可访问性 | 进阶 | 原创 |
+| [css-master](skills/css-master/SKILL.md) | CSS 布局大师：Tailwind/Grid/Flexbox、响应式、动画 | 入门 | 原创 |
+| [web-performance](skills/web-performance/SKILL.md) | Web 性能优化：Core Web Vitals、bundle 分析、加载策略 | 进阶 | 原创 |
+| [browser-devtools](skills/browser-devtools/SKILL.md) | 浏览器 DevTools 精通：调试、网络分析、性能剖析 | 入门 | 原创 |
 
 ## 安装
 
