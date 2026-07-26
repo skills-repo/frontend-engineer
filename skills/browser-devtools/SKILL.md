@@ -1,6 +1,6 @@
 ---
 name: browser-devtools
-description: 浏览器 DevTools 精通：元素检查、网络分析、性能剖析、Console 调试、Memory 排查
+description: 浏览器 DevTools 精通：元素检查、网络分析、性能剖析、Console、Memory
 source:
   type: original
   repo: skills-repo/frontend-engineer

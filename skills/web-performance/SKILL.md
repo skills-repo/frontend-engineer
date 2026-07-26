@@ -1,6 +1,6 @@
 ---
 name: web-performance
-description: Web 性能优化：Core Web Vitals 提升、bundle 分析、资源加载策略、渲染性能
+description: Web 性能优化：Core Web Vitals、bundle 分析、资源加载策略、渲染性能
 source:
   type: original
   repo: skills-repo/frontend-engineer

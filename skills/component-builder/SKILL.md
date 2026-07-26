@@ -1,6 +1,6 @@
 ---
 name: component-builder
-description: React/Vue 组件开发最佳实践：设计模式、Props/State 管理、可访问性、测试策略
+description: React/Vue 组件开发：设计模式、Props/State 管理、可访问性、测试策略
 source:
   type: original
   repo: skills-repo/frontend-engineer

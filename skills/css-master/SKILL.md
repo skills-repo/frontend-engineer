@@ -1,6 +1,6 @@
 ---
 name: css-master
-description: CSS 布局大师：Tailwind/Grid/Flexbox 布局、响应式设计、CSS 动画与过渡
+description: CSS 布局：Tailwind/Grid/Flexbox、响应式设计、CSS 动画与过渡
 source:
   type: original
   repo: skills-repo/frontend-engineer
