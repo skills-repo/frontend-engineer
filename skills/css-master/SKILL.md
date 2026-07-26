@@ -1,64 +1,57 @@
 ---
 name: css-master
-description: CSS 布局：Tailwind/Grid/Flexbox、响应式设计、CSS 动画与过渡
+description: Tailwind CSS 高级布局：Grid 模板、容器查询、Flexbox 模式、响应式方案
 source:
-  type: original
+  type: derived
   repo: skills-repo/frontend-engineer
   path: skills/css-master/SKILL.md
   version: 1.0.0
   updated: 2026-07-26
+  url: https://skills.sh/josiahsiegel/claude-plugin-marketplace/tailwindcss-advanced-layouts
 metadata:
   category: CSS
   platform: Web
   difficulty: 入门
 ---
 
-# CSS 布局大师
+# Tailwind CSS 高级布局
 
-> 写 CSS 不再靠猜。从布局方案选择到响应式断点，从 Grid 到 Tailwind，覆盖现代 CSS 核心技术。
+> Tailwind CSS 高级布局技术：CSS Grid、Flexbox、容器查询、响应式模式。适用于复杂页面布局。
 
 ## 能力
 
-- **布局方案推荐**：根据设计稿推荐 Grid/Flexbox/Flow 布局组合
-- **响应式设计**：移动优先、断点策略、容器查询
-- **Tailwind 精通**：utility class 组合、自定义 theme、@apply 最佳实践
-- **CSS 动画**：transition、keyframes、will-change 优化
-- **浏览器兼容**：caniuse 查询、渐进增强、降级方案
+- **CSS Grid 布局**：grid-template-areas、grid-cols 响应式、subgrid、minmax/auto-fit
+- **Flexbox 模式**：flex-1/flex-grow/gap 空间分配、居中对齐方案
+- **圣杯布局**：header + 多栏 + footer 经典布局的 Grid 和 Flexbox 实现
+- **容器查询**：@container + Tailwind 插件实现组件级响应式
+- **响应式模式**：移动优先断点策略、aspect-ratio 工具、多栏杂志布局
 
 ## 使用方式
 
 ```
-/css-master 实现这个 dashboard 布局（header + sidebar + main）
-/css-master 这个 flex 布局在移动端溢出，帮我修
-/css-master 给这个按钮加 hover 和 click 动画
+/css-master 帮我实现一个响应式圣杯布局
+/css-master 这个卡片网格需要自适应列数，帮我用 Grid 写
+/css-master 把这个布局从 Flexbox 改成 CSS Grid
 ```
 
 ## 工作流
 
-1. 描述布局需求或展示设计稿截图
-2. AI 推荐布局方案（Grid areas / Flex 方向）
-3. 生成 CSS/Tailwind 代码
-4. 标注响应式断点和兼容性注意事项
-
-## 布局选择速查
-
-| 需求 | 推荐方案 |
-|------|---------|
-| 页面整体布局 | CSS Grid |
-| 一维排列（行/列） | Flexbox |
-| 重叠/绝对定位 | position + z-index |
-| 文字排版 | Flow + max-width |
-| 自适应卡片网格 | Grid + auto-fill/minmax |
+1. 描述页面布局需求（栏数、响应式断点、特殊区域）
+2. AI 选择 Grid 或 Flexbox 方案
+3. 实现核心布局结构
+4. 添加响应式断点（移动优先）
+5. 验证跨浏览器兼容性
 
 ## 适用场景
 
-- 从零搭建页面布局
-- 响应式适配移动端
-- Tailwind 项目中的复杂样式
-- 动画和微交互实现
+- 复杂多栏页面布局
+- 响应式设计从零搭建
+- 现有布局重构优化
+- 学习 Tailwind CSS Grid/Flexbox 模式
 
 ## 限制
 
-- 不涉及 Canvas/WebGL 等非 CSS 渲染
-- 复杂动画建议使用 Framer Motion 等库
-- 生成的代码需在目标浏览器测试
+- 仅覆盖 Tailwind CSS 布局，不涉及原生 CSS
+- 不涉及 CSS-in-JS 方案
+- 不涉及 CSS 动画（归属 motion-design）
+- 浏览器兼容性需用户自行测试

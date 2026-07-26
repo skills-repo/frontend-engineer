@@ -1,12 +1,13 @@
 ---
 name: web-performance
-description: Web 性能优化：Core Web Vitals、bundle 分析、资源加载策略、渲染性能
+description: Web 性能优化：Core Web Vitals、bundle 分析、缓存策略、运行时性能
 source:
-  type: original
+  type: derived
   repo: skills-repo/frontend-engineer
   path: skills/web-performance/SKILL.md
   version: 1.0.0
   updated: 2026-07-26
+  url: https://skills.sh/sickn33/antigravity-awesome-skills/web-performance-optimization
 metadata:
   category: 性能
   platform: Web
@@ -15,49 +16,41 @@ metadata:
 
 # Web 性能优化
 
-> 让页面快起来。从测量到优化，覆盖 Core Web Vitals 三指标和加载性能全链路。
+> 系统化优化网站性能：加载速度、Core Web Vitals、bundle 大小、缓存策略、运行时性能。
 
 ## 能力
 
-- **性能测量**：Lighthouse/PageSpeed Insights 报告解读
-- **Core Web Vitals**：LCP（加载）、INP（交互）、CLS（布局偏移）优化策略
-- **Bundle 分析**：webpack-bundle-analyzer、tree-shaking、code splitting
-- **资源加载**：懒加载、预加载（preload/prefetch）、CDN 策略、图片优化
-- **渲染性能**：避免 layout thrashing、虚拟列表、debounce/throttle
+- **Core Web Vitals**：LCP（最大内容绘制）、INP（交互延迟）、CLS（布局偏移）优化
+- **资源优化**：图片压缩与格式选择、字体加载策略、代码分割与懒加载
+- **缓存策略**：CDN 配置、Service Worker、HTTP 缓存头、离线支持
+- **Bundle 分析**：webpack/vite bundle 分析、tree-shaking、动态 import
+- **运行时性能**：长任务拆分、requestAnimationFrame、Web Worker 卸载计算
 
 ## 使用方式
 
 ```
-/web-performance 分析这个页面的 Lighthouse 报告
-/web-performance 首页 LCP 超过 4 秒，怎么优化？
-/web-performance 这个 bundle 有 2MB，帮我做 code splitting
-```
-
-## 优化决策树
-
-```
-LCP 高 → 检查服务器响应/资源加载/渲染阻塞
-INP 高 → 检查长任务/事件处理/主线程阻塞
-CLS 高 → 检查无尺寸图片/动态注入内容/Web Font
+/web-performance 分析这个页面的性能瓶颈
+/web-performance 优化这个 bundle，减小体积
+/web-performance 帮我配置缓存策略
 ```
 
 ## 工作流
 
-1. 获取 Lighthouse 报告或性能数据
-2. 识别瓶颈（网络/渲染/JS 执行）
-3. 按影响大小排序优化建议
-4. 生成具体代码修改
-5. 预估优化后的指标改善
+1. 运行 Lighthouse 获取基线指标（LCP/INP/CLS/TBT）
+2. 分析 bundle 大小和网络瀑布图
+3. 按优先级排序：LCP 资源 → bundle → 运行时 → 缓存
+4. 逐项实施优化
+5. 重新测量验证改善幅度
 
 ## 适用场景
 
-- 页面加载慢需要排查
--  Lighthouse 评分低需要提升
-- 移动端性能优化
-- 大 bundle 需要拆分
+- 页面加载速度优化
+- 移动端 Web 性能提升
+- 上线前性能审计
+- 持续性能监控建立
 
 ## 限制
 
-- 不涉及后端/服务器性能优化
-- 不涉及 CDN/网络基础设施配置
-- 建议的优化方案需要在实际设备上验证
+- 不涉及后端性能优化（数据库、API）
+- 不涉及 CDN 服务商选择
+- 不涉及 Native App 性能

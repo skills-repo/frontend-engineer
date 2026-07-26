@@ -1,55 +1,57 @@
 ---
 name: component-builder
-description: React/Vue 组件开发：设计模式、Props/State 管理、可访问性、测试策略
+description: 现代 Web 开发最佳实践指南：HTML/CSS/JS 模式、API 使用、框架适配
 source:
-  type: original
+  type: derived
   repo: skills-repo/frontend-engineer
   path: skills/component-builder/SKILL.md
   version: 1.0.0
   updated: 2026-07-26
+  url: https://skills.sh/googlechrome/modern-web-guidance/modern-web-guidance
 metadata:
-  category: 组件开发
+  category: 综合
   platform: Web
-  difficulty: 进阶
+  difficulty: 入门
 ---
 
-# 组件构建器
+# 现代 Web 开发指南
 
-> 设计可维护、可复用、可测试的前端组件。从 Props 设计到组合模式，覆盖组件开发的完整生命周期。
+> 现代 Web 开发最佳实践搜索工具。Web API 快速演进，训练数据中的模式可能已过时——构建前先搜索最新实践。
 
 ## 能力
 
-- **组件设计模式**：Compound Components、Render Props、HOC、Hooks 组合
-- **Props 设计**：类型安全、默认值、受控/非受控模式选择
-- **状态管理**：local state vs lifted state vs context vs store — 选型决策树
-- **可访问性**：ARIA 标签、键盘导航、焦点管理、语义化 HTML
-- **组件测试**：单元测试（render + interaction）、快照测试、可访问性测试
+- **UI/布局**：Modal/Dialog/Popover 新模式、anchor positioning、container queries、`:has()` 选择器
+- **滚动与动效**：View Transitions API、Scroll-driven animations、滚动视差
+- **性能**：Core Web Vitals、content-visibility、Fetch Priority、图片优化
+- **系统 API**：本地文件访问、WebUSB、WebSocket 同步、WebAssembly
+- **框架适配**：React/Vue/Angular 中的布局和样式最佳实践
+- **表单**：自动填充、高级输入类型、自定义滚动条、组件状态
 
 ## 使用方式
 
 ```
-/component-builder 设计一个可复用的 Modal 组件
-/component-builder 审查这个组件的 Props 设计
-/component-builder 为这个表单组件添加键盘可访问性
+/component-builder 实现一个符合最新标准的 Modal 组件
+/component-builder 这个表单的自动填充怎么处理？
+/component-builder 在 React 中实现 View Transitions
 ```
 
 ## 工作流
 
-1. 描述组件需求和交互行为
-2. AI 推荐设计模式（Compound / Render Props / Hooks）
-3. 生成组件骨架代码（含类型定义）
-4. 补充可访问性和测试
-5. 输出完整组件文件
+1. 描述要实现的 Web 功能
+2. 运行 `npx -y modern-web-guidance search "<query>"` 搜索最佳实践
+3. 根据搜索结果选择标准化模式
+4. 实现时优先使用原生 Web API，避免不必要的大依赖
+5. 验证跨浏览器兼容性
 
 ## 适用场景
 
-- 新功能需要设计可复用组件
-- 已有组件 Props 混乱需要重构
-- 组件缺少可访问性支持
-- 新人需要组件开发规范指导
+- 实现新 UI 组件前查找标准模式
+- 学习现代 Web API 用法
+- 避免使用过时或即将废弃的模式
+- 框架中的 Web 平台特性适配
 
 ## 限制
 
-- 生成的代码需根据实际项目调整样式和业务逻辑
-- 不涉及 SSR/RSC 特定模式（那是框架层面的考量）
-- 不替代设计系统的组件库（如 shadcn/ui）
+- 不涉及后端开发
+- 不涉及 CI/CD 和部署
+- 搜索结果需要人工判断适用性

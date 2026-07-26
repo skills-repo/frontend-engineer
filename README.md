@@ -6,10 +6,10 @@
 
 | 技能 | 描述 | 难度 | 来源 |
 |------|------|------|------|
-| [component-builder](skills/component-builder/SKILL.md) | React/Vue 组件开发：设计模式、状态管理、可访问性 | 进阶 | 原创 |
-| [css-master](skills/css-master/SKILL.md) | CSS 布局大师：Tailwind/Grid/Flexbox、响应式、动画 | 入门 | 原创 |
-| [web-performance](skills/web-performance/SKILL.md) | Web 性能优化：Core Web Vitals、bundle 分析、加载策略 | 进阶 | 原创 |
-| [browser-devtools](skills/browser-devtools/SKILL.md) | 浏览器 DevTools 精通：调试、网络分析、性能剖析 | 入门 | 原创 |
+| [component-builder](skills/component-builder/SKILL.md) | 现代 Web 开发最佳实践：HTML/CSS/JS 模式、API、框架适配 | 入门 | [衍生](https://skills.sh/googlechrome/modern-web-guidance/modern-web-guidance) |
+| [css-master](skills/css-master/SKILL.md) | Tailwind CSS 高级布局：Grid、容器查询、Flexbox、响应式 | 入门 | [衍生](https://skills.sh/josiahsiegel/claude-plugin-marketplace/tailwindcss-advanced-layouts) |
+| [web-performance](skills/web-performance/SKILL.md) | Web 性能优化：Core Web Vitals、bundle、缓存、运行时 | 进阶 | [衍生](https://skills.sh/sickn33/antigravity-awesome-skills/web-performance-optimization) |
+| [browser-devtools](skills/browser-devtools/SKILL.md) | Chrome DevTools 自动化：导航、快照、交互、审计 | 入门 | [衍生](https://skills.sh/kunchenguid/chrome-devtools-axi/chrome-devtools-axi) |
 
 ## 安装
 
