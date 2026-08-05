@@ -1,3 +1,15 @@
+> [!WARNING]
+> **本仓库已归档（DEPRECATED），不再维护。**
+>
+> 前端能力已并入 **[ai-fullstack-engineer](https://github.com/skills-repo/ai-fullstack-engineer)**（AI 全栈应用工程师，superpower 架构 Level A），
+> 与后端能力统一为一套端到端的全栈技能库，内容更完整、结构更清晰。
+>
+> ```bash
+> npx skills.sh add skills-repo/ai-fullstack-engineer
+> ```
+>
+> 本仓库保留仅为不破坏已有 `skills-lock.json` 引用：现有子技能路径不会变动，但不会再收到更新。
+
 # Frontend Engineer — 前端工程师技能库
 
 > 面向个人开发者和小团队的前端开发技能集，覆盖组件开发、CSS 布局、性能优化、浏览器调试。
